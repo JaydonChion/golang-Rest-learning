@@ -24,7 +24,7 @@ var db *sql.DB
 
 
 func main(){
-	db,err = sql.Open("mysql","root:XXjetherngXX11234@tcp(127.0.0.1:3306)/userpost")
+	db,err = sql.Open("mysql","root:password@tcp(127.0.0.1:3306)/userpost")
 
 
 	if err != nil {
